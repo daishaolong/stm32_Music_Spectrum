@@ -3105,7 +3105,7 @@ static const uint16_t color[] = {RED, YELLOW, BROWN, GREEN, CYAN, MAGENTA, BLUE,
 //const uint16_t freq_segment[]={63,160,400,1000,2500,6250,16000};//7段
 const uint16_t freq_segment1[] = {400, 600, 1000, 1500, 2500, 6250, 7500}; //10000};//7段
 //const uint16_t freq_segment[]={42,63,100,160,280,400,700,1000,1600,2500,4000,6250,10000,16000};//,21000};//14段
-const uint16_t freq_segment2[] = {400, 700, 1000, 1200, 1600, 1800, 2500, 4000, 5000, 6250, 7000, 8000, 10000}; //,21000};//14段
+const uint16_t freq_segment2[] = {200,400, 700, 1000, 1200, 1600, 1800, 2500, 4000, 5000, 6250, 7000, 8000}; //,21000};//14段
 static const uint16_t *freq_segment = NULL;//freq_segment1; 默认 NULL为全量显示
 static uint16_t FREQ_SEGMENT_SIZE =0;// (sizeof(freq_segment1) / sizeof(freq_segment1[0]));
 typedef struct

@@ -135,8 +135,8 @@ int main(void)
 	snprintf(buf,sizeof(buf)-1,"Music Spectrum! freq:%d,num:%d,freq_seg:%d",ADC_SAMPLE_FREQ,ADC_SAMPLE_LEN,FREQ_SEG);
 	LCD_ShowString(30,40,450,16,16,(u8*)buf);	
 	LCD_ShowString(30,60,200,16,16,"ATOM@ALIENTEK");
-	LCD_ShowString(30,80,200,16,16,"2021/05/01");	
-	LCD_ShowString(30,100,200,16,16,"KEY0:change display style mode!");//切换显示模式
+	LCD_ShowString(30,80,200,16,16,"2021/05/04");	
+	LCD_ShowString(30,100,450,16,16,"KEY0:change display style mode!");//切换显示模式
 	LCD_ShowString(30,120,200,16,16,"KEY1:change band!");//切换频段
 	displayDropdownSpeed();
 //	snprintf(buf,sizeof(buf)-1,"KEY2:change drop down speed! current speed:%d!",getDropdownSpeed());
